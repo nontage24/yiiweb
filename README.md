@@ -1,2 +1,0 @@
-# yiiweb
-yiiweb workshop 
