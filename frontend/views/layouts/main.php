@@ -36,13 +36,14 @@ AppAsset::register($this);
             $menuItems = [
                 ['label' => 'Home', 'url' => ['/site/index']],
                 ['label' => 'Patient', 'url' => ['/patient']],
+                ['label' => 'Calendar(module)', 'url' => ['/calendar/calendar']],
                 ['label' => 'Map(module)', 'url' => ['/map/map']],
                 ['label' => 'Chart(1)', 'url' => ['/chart']],
                 ['label' => 'Chart(2)', 'url' => ['/chart/pie']],
                 ['label' => 'LINE(Notify)(module)', 'url' => ['/line/default/index']],
                 ['label' => 'Test', 'url' => ['/test']],
-                ['label' => 'About', 'url' => ['/site/about']],
-                ['label' => 'Contact', 'url' => ['/site/contact']],
+                //['label' => 'About', 'url' => ['/site/about']],
+                //['label' => 'Contact', 'url' => ['/site/contact']],
             ];
             if (Yii::$app->user->isGuest) {
                 $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];

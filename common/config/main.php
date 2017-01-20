@@ -17,6 +17,14 @@ return [
         'line' => [
             'class' => 'frontend\modules\line\Line',
         ],
+        
+        'calendar' => [
+            'class' => 'frontend\modules\calendar\calendar',
+        ],
+        
+        
     ],
-    'language' => 'th'
+    'language' => 'th',
+    'timeZone' => 'Asia/Bangkok',
+    
 ];
