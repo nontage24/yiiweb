@@ -11,7 +11,7 @@ use common\components\Line;
 class DefaultController extends Controller {
 
     public function actionIndex() {
-        $msg = "ทดสอบ ส่ง ไลน์ จากการอบรม Yii2 โดย อ.อุเทน " . date('Y-m-d H:i:s');
+        $msg = "ทดสอบ ส่ง ไลน์ จากการอบรม Yii2 โดย อ.อุเทน  " . date('Y-m-d H:i:s');
         //$this->sendLineNotify($msg);
         // return $this->render('index');
         //Line::sendLineNotify($msg);
