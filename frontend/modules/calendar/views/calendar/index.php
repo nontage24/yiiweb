@@ -1,6 +1,6 @@
 <?php
 
-/*
+/*   
   $events =[];
 
   $evt1 = new \yii2fullcalendar\models\Event();
@@ -41,7 +41,7 @@ echo \yii2fullcalendar\yii2fullcalendar::widget(array(
         'left' => 'prev,next today'
     ],
     'clientOptions' => [
-        'firstDay' => '0',
+        'firstDay' => '0',//เลือกวันเริ่มต้นในสัปดาห์เป็นอาเรย์ตำแหน่งที่ 0
         //'height' => new JsExpression('function(e){return $(window).height() - 100;}'),
         'defaultView' => 'month',
         //'eventClick' => new JsExpression($event_click),
